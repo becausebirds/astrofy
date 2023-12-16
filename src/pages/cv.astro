@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
-<BaseLayout title="Jeff Mann's Resume" sideBarActiveItemID="cv">
+<BaseLayout title="Jeffrey Mann's Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Contact</div>
     <p>310-430-2927 (Mobile)</p>
@@ -17,6 +17,17 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <p>
       A fully-rounded digital marketer with a focus on continuous learning and insight generation through quantitative testing and analytics. Experienced in Marketing Automation Software (Salesforce Marketing Cloud), Google Analytics 4, SEO, SEM, CMS (Kentico, Wordpress), Social Media Strategy, Brand Management, Adobe CC, and User Experience Optimization.
     </p>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="BA, Psychology"
+      subtitle="UC Irvine"
+    />
   </div>
 
   <div class="mb-5">
@@ -45,7 +56,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
       Managed the development and deployment of cross-channel digital marketing campaigns. Analyzed the performance of the CreditHuman.com website using GA4, multivariate testing, and dashboarding. Provided direction to agencies and vendors, administered marketing technology platforms, and measured/reporting campaign performance against goals.
     </TimeLineElement>
 
-    {/* Include similar TimeLineElement components for other experiences */}
+    {/* Add more experience sections as needed */}
   </div>
 
   <div class="mb-5">
