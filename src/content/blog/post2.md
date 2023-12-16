@@ -4,5 +4,5 @@ description: "Since 2016, volunteers across the United States have participated 
 pubDate: "May 29 2023"
 postURL: "https://becausebirds.com/survey-of-the-lesser-goldfinch-for-audubon-climate-watch-2023/?&utm_source=jeffmann.xyz"
 heroImage: "/lesser-goldfinch-climate-watch-2023.webp"
-tags: ["Conservation"]
+tags: ["conservation"]
 ---
