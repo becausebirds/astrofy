@@ -28,18 +28,10 @@ const last_posts = posts.slice(0, 3);
   </div>
 
   <HorizontalCard
-    title="Haikubox bird ID station review"
-    img="/post_img.webp"
-    desc="Discover the Haikubox, an AI-powered bird ID station by Loggerhead Instruments."
-    url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
     title="Create an iOS Scriptable widget to show backyard bird visitors"
-    img="/post_img.webp"
+    img="/plausible-birdnetpi-widget"
     desc="A tutorial on how to create an iOS Scriptable widget that displays the bird visitors in your backyard."
-    url="#"
+    url="https://becausebirds.com/create-an-ios-scriptable-widget-to-show-backyard-bird-visitors/?&utm_source=jeffmann.xyz"
   />
 
   <div>
@@ -47,31 +39,38 @@ const last_posts = posts.slice(0, 3);
   </div>
 
   <HorizontalCard
-    title="Track backyard birds on a digital counter"
-    img="/post_img.webp"
+    title="Track backyard birds chirps on a digital counter"
+    img="/digital-bird-chirp-counter.webp"
     desc="A project that uses a BirdNET-Pi setup and a Raspberry Pi computer to listen, ID, and log birds it hears 24/7."
-    url="#"
+    url="https://becausebirds.com/project-track-backyard-birds-on-a-digital-counter/?&utm_source=jeffmann.xyz"
     badge="FOSS"
   />
 
   <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
   </div>
-
-  {
-    last_posts.map((post) => (
-      <>
-        <HorizontalCard
-          title={post.data.title}
-          img={post.data.heroImage}
-          desc={post.data.description}
-          url={"/blog/" + post.slug}
-          target="_self"
-          badge={post.data.badge}
-        />
-        <div class="divider my-0" />
-      </>
-    ))
-  }
+<HorizontalCard
+    title="Spotting the rare Cattle Tyrant bird in Corpus Christi, Texas"
+    img="/cattle-tyrant.webp"
+    desc="A solitary exotic bird, the Cattle Tyrant, was spotted this week in downtown Corpus Christi, Texas. Birders from all over the country rushed to the gulf coast of Texas to try to catch a glimpse of this yellow flycatcher far from its home in South America."
+    url="https://becausebirds.com/spotting-the-rare-cattle-tyrant-bird-in-corpus-christi-texas/?&utm_source=jeffmann.xyz"
+    tags="RARE BIRD"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Survey of the Lesser Goldfinch for Audubon Climate Watch 2023"
+    img="/lesser-goldfinch-climate-watch-2023.webp"
+    desc="Since 2016, volunteers across the United States have participated in the Climate Watch survey to collect data about target species to help Audubon scientists better understand how birds are responding to climate change. This summer was my first opportunity to work with the Bexar Audubon Society to get involved and collect this crucial data about the Lesser Goldfinch."
+    url="https://becausebirds.com/survey-of-the-lesser-goldfinch-for-audubon-climate-watch-2023/?&utm_source=jeffmann.xyz"
+   tags="CONSERVATION"
+  />
+<div class="divider my-0"></div>
+  <HorizontalCard
+    title="Haikubox bird ID station review"
+    img="/haikubox-review.webp"
+    desc="Discover the Haikubox, an AI-powered bird ID station by Loggerhead Instruments. In this comprehensive review we’ll explore its build quality, installation process, app features, bird detections, and more. Enhance your birdwatching experience with this reliable and user-friendly device."
+    url="https://becausebirds.com/haikubox-bird-id-station-review-elevate-your-backyard-birdwatching-experience/?&utm_source=jeffmann.xyz"
+   tags="REVIEWS"
+  />
 
 </BaseLayout>
