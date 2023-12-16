@@ -1,33 +1,20 @@
----
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
----
 
-<BaseLayout title="Resume" sideBarActiveItemID="cv">
+<BaseLayout title="Jeff Mann's Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-3xl w-full font-bold">Contact</div>
+    <p>310-430-2927 (Mobile)</p>
+    <p>jeffrey.mann@me.com</p>
+    <p><a href="www.linkedin.com/in/jeffrey-mann" target="_blank">LinkedIn Profile</a></p>
+    <p><a href="becausebirds.com" target="_blank">Personal Blog</a></p>
   </div>
 
   <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </div>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
-  </div>
-
-  <div class="time-line-container grid gap-4 mb-10">
-    <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
-    <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
+    <div class="text-3xl w-full font-bold">Summary</div>
+    <p>
+      A fully-rounded digital marketer with a focus on continuous learning and insight generation through quantitative testing and analytics. Experienced in Marketing Automation Software (Salesforce Marketing Cloud), Google Analytics 4, SEO, SEM, CMS (Kentico, Wordpress), Social Media Strategy, Brand Management, Adobe CC, and User Experience Optimization.
+    </p>
   </div>
 
   <div class="mb-5">
@@ -36,23 +23,27 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Marketing Analytics Manager"
+      subtitle="July 2023 - Present (6 months) at The Holt Group, San Antonio, Texas, United States"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      Develops and implements data-driven strategies to optimize marketing initiatives across various digital channels. Analyzes and interprets data to optimize digital marketing campaigns. Presents regular reports on campaign performance, including KPIs and ROI. Collaborates with the marketing team to improve campaign performance and drive growth.
     </TimeLineElement>
+    
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="CSO Process Manager"
+      subtitle="2022 - 2023 (1 year) at Credit Human, San Antonio, Texas"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      (Include details of responsibilities and achievements during this role)
     </TimeLineElement>
+
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Digital Marketing Manager"
+      subtitle="2018 - 2022 (4 years) at Credit Human, San Antonio, Texas"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      Managed the development and deployment of cross-channel digital marketing campaigns. Analyzed the performance of the CreditHuman.com website using GA4, multivariate testing, and dashboarding. Provided direction to agencies and vendors, administered marketing technology platforms, and measured/reporting campaign performance against goals.
     </TimeLineElement>
+
+    {/* Include similar TimeLineElement components for other experiences */}
   </div>
 
   <div class="mb-5">
@@ -61,11 +52,12 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <ul class="list-disc mx-6 mb-10 grid gap-2">
     <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
+      <a href="#" target="_blank">Essential Facilitation Certification</a>
     </li>
     <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
+      <a href="#" target="_blank">Google Analytics 4 Certification</a>
     </li>
+    {/* Add more certifications as needed */}
   </ul>
 
   <div class="mb-5">
@@ -73,20 +65,17 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   </div>
 
   <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
+    <li>Salesforce Marketing Cloud</li>
+    <li>SQL</li>
+    <li>Search Engine Marketing (SEM)</li>
+    <li>Google Analytics 4</li>
+    <li>SEO</li>
+    <li>CMS: Kentico, Wordpress</li>
+    <li>Social Media Strategy</li>
+    <li>Brand Management</li>
+    <li>Adobe CC: Photoshop, Lightroom</li>
+    <li>User experience optimization: Google Optimize, Optimizely</li>
+    <li>Spanish (Language)</li>
+    {/* Add more skills as needed */}
   </ul>
 </BaseLayout>
