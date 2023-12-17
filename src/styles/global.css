@@ -1,3 +1,7 @@
+a { text-decoration: underline;}
+
+a.py3.text-base { text-decoration: none;}
+
 .time-line-container>div:last-child .education__time>.education__line {
     display: none;
 }
