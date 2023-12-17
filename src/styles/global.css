@@ -1,6 +1,9 @@
 a { text-decoration: underline;}
 
-a h .py1 .py2 .py3 { text-decoration: none;}
+.py-1, .py-2, .py-3, .py-4 { text-decoration: none; }
+
+h1, h2, h3, h4, h5 { text-decoration: none; }
+
 
 .time-line-container>div:last-child .education__time>.education__line {
     display: none;
