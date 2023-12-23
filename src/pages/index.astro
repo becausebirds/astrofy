@@ -7,7 +7,8 @@ const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueO
 
 const last_posts = posts.slice(0, 3);
 ---
-
+<!-- relative path to script at `src/scripts/local.js` -->
+<script src="../plausible.js"></script>
 <BaseLayout sideBarActiveItemID="home">
   <div class="pb-12 mt-5">
     <div class="text-xl py-1">Hey there 👋</div>
