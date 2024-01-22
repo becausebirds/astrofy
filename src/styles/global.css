@@ -19,9 +19,9 @@
     padding-right: 0.563rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: #595959;
+    border-color: #999999;
     --tw-bg-opacity: 1;
-    background-color: #595959;
+    background-color: #d2d2d2;
     --tw-text-opacity: 1;
     color: hsl(var(--bc) / var(--tw-text-opacity));
     border-radius: var(--rounded-badge, 1.9rem);
