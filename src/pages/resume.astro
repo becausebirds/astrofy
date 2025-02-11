@@ -1,155 +1,114 @@
-import BaseLayout from "../layouts/BaseLayout.astro";
-import TimeLineElement from "../components/cv/TimeLine.astro";
+--- >-
+import BaseLayout from "../layouts/BaseLayout.astro"; import TimeLineElement
+from "../components/cv/TimeLine.astro";
 
-<!-- relative path to script at `src/scripts/local.js` -->
-<script src="../plausible.js"></script>
+<!-- relative path to script at `src/scripts/local.js` --> <script
+src="../plausible.js"></script>
 
-<BaseLayout title="Jeff Mann's Resume" sideBarActiveItemID="cv">
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Contact</div>
-    <p>✉️ <a href="mailto:hello@jeffmann.xyz">hello@jeffmann.xyz</a></p>
-    <p>🔗 <a href="https://linkedin.com/in/jeffrey-mann" target="_blank">LinkedIn Profile</a></p>
-    <p>🌐 <a href="https://becausebirds.com" target="_blank">Birdwatching Blog</a></p>
-  </div>
+<BaseLayout title="Jeff Mann's Resume" sideBarActiveItemID="cv"> <div
+class="mb-5"> <div class="text-3xl w-full font-bold">Contact</div> <p>✉️ <a
+href="mailto:hello@jeffmann.xyz">hello@jeffmann.xyz</a></p> <p>🔗 <a
+href="https://linkedin.com/in/jeffrey-mann" target="_blank">LinkedIn
+Profile</a></p> <p>🌐 <a href="https://becausebirds.com"
+target="_blank">Birdwatching Blog</a></p> </div>
 
-  <div class="mb-10 text-justify">
-    <div class="text-3xl w-full font-bold">Summary</div>
-    <p>
-      A fully-rounded digital marketer with a focus on continuous learning and insight generation through quantitative testing and analytics. Experienced in Marketing Automation Software (Salesforce Marketing Cloud), Google Analytics 4, SEO, SEM, CMS (Wordpress, Kentico), Social Media Strategy, Brand Management, Adobe CC, and User Experience Optimization.
-    </p>
-  </div>
+<div class="mb-10 text-justify"> <div class="text-3xl w-full
+font-bold">Summary</div> <p> A fully-rounded digital marketer with a focus on
+continuous learning and insight generation through quantitative testing and
+analytics. Experienced in Marketing Automation Software (Salesforce Marketing
+Cloud), Google Analytics 4, SEO, SEM, CMS (Wordpress, Kentico), Social Media
+Strategy, Brand Management, Adobe CC, and User Experience Optimization. </p>
+</div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
-  </div>
+<div class="mb-5"> <div class="text-3xl w-full font-bold">Education</div> </div>
 
-  <div class="time-line-container grid gap-4 mb-10">
-    <TimeLineElement
-      title="BA, Psychology"
-      subtitle="UC Irvine"
-    />
-  </div>
+<div class="time-line-container grid gap-4 mb-10"> <TimeLineElement title="BA,
+Psychology" subtitle="UC Irvine" /> </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Experience</div>
-  </div>
+<div class="mb-5"> <div class="text-3xl w-full font-bold">Experience</div>
+</div>
 
-  <div class="time-line-container mb-10">
-    <TimeLineElement
-      title="Senior Marketing Analytics Manager"
-      subtitle="2023 - Present at <a href='https://holtgrp.com'>The Holt Group</a>, San Antonio, Texas, United States"
-    >
-      <ul>
-        <li>Drive data-driven decision-making across 12 construction industry companies, including HOLT CAT, by measuring the lead lifecycle and optimizing marketing ROI through APIs and data pipelines.</li>
-        <li>Design and implement a scalable analytics framework, integrating enterprise data for holistic marketing attribution.</li>
-        <li>Build predictive models and dashboards to generate actionable insights and improve campaign performance.</li>
-        <li>Apply advanced data modeling techniques to define customer segmentation, pipeline performance, CAC, and retention rates, enabling data-driven optimization.</li>
-        <li>Collaborate with SMP, IT, and Marketing leaders to ensure consistent data management across CRM, marketing automation, and digital advertising platforms.</li>
-      </ul>
-    </TimeLineElement>
-  </div>
+<div class="time-line-container mb-10"> <TimeLineElement title="Senior Marketing
+Analytics Manager" subtitle="2023 - Present at <a href='https://holtgrp.com'>The
+Holt Group</a>, San Antonio, Texas, United States" > <ul> <li>Drive data-driven
+decision-making across 12 construction industry companies, including HOLT CAT,
+by measuring the lead lifecycle and optimizing marketing ROI through APIs and
+data pipelines.</li> <li>Design and implement a scalable analytics framework,
+integrating enterprise data for holistic marketing attribution.</li> <li>Build
+predictive models and dashboards to generate actionable insights and improve
+campaign performance.</li> <li>Apply advanced data modeling techniques to define
+customer segmentation, pipeline performance, CAC, and retention rates, enabling
+data-driven optimization.</li> <li>Collaborate with SMP, IT, and Marketing
+leaders to ensure consistent data management across CRM, marketing automation,
+and digital advertising platforms.</li> </ul> </TimeLineElement> </div>
 
-  <div class="time-line-container mb-10">
-    <TimeLineElement
-      title="CSO Process Manager"
-      subtitle="2022 - 2023 at Credit Human, San Antonio, Texas"
-    >
-      <ul>
-        <li>Led enterprise-level process improvement initiatives for operational efficiency, collaborating cross-functionally to define and dashboard enterprise KPIs.</li>
-        <li>Managed projects assigned by the Chief Services Officer to optimize productivity and operational performance.</li>
-      </ul>
-    </TimeLineElement>
+<div class="time-line-container mb-10"> <TimeLineElement title="CSO Process
+Manager" subtitle="2022 - 2023 at Credit Human, San Antonio, Texas" > <ul>
+<li>Led enterprise-level process improvement initiatives for operational
+efficiency, collaborating cross-functionally to define and dashboard enterprise
+KPIs.</li> <li>Managed projects assigned by the Chief Services Officer to
+optimize productivity and operational performance.</li> </ul> </TimeLineElement>
 
-    <TimeLineElement
-      title="Digital Marketing Manager"
-      subtitle="2018 - 2022 at Credit Human, San Antonio, Texas"
-    >
-      <ul>
-        <li>Managed the development and deployment of cross-channel digital marketing campaigns.</li>
-        <li>Analyzed the performance of the CreditHuman.com website using GA4, multivariate testing, and dashboarding.</li>
-        <li>Provided direction to agencies and vendors, administered marketing technology platforms, and measured/reporting campaign performance against goals.</li>
-      </ul>
-    </TimeLineElement>
+<TimeLineElement title="Digital Marketing Manager" subtitle="2018 - 2022 at
+Credit Human, San Antonio, Texas" > <ul> <li>Managed the development and
+deployment of cross-channel digital marketing campaigns.</li> <li>Analyzed the
+performance of the CreditHuman.com website using GA4, multivariate testing, and
+dashboarding.</li> <li>Provided direction to agencies and vendors, administered
+marketing technology platforms, and measured/reporting campaign performance
+against goals.</li> </ul> </TimeLineElement>
 
-    <TimeLineElement
-      title="Digital Marketing Specialist"
-      subtitle="2018 - 2018 at Credit Human, San Antonio, Texas"
-    >
-      Analyzed the performance of digital marketing campaigns via email, social, and targeted web ads. Designed automated workflows to move leads through the sales funnel using calls-to-action, custom landing pages, analytics, and other inbound marketing techniques. Key person in implementing HubSpot CRM and CMS. Managed migration of the company blog from legacy software to WordPress. Oversaw on-site and off-site advertising. Created assets for marketing campaigns including copy and HTML templates for emails, landing pages, blog posts, and advertisements. Setup and optimized Google AdWords and Facebook ad campaigns. Improved ranking of key landing pages for various search terms.
-    </TimeLineElement>
-  </div>
+<TimeLineElement title="Digital Marketing Specialist" subtitle="2018 - 2018 at
+Credit Human, San Antonio, Texas" > Analyzed the performance of digital
+marketing campaigns via email, social, and targeted web ads. Designed automated
+workflows to move leads through the sales funnel using calls-to-action, custom
+landing pages, analytics, and other inbound marketing techniques. Key person in
+implementing HubSpot CRM and CMS. Managed migration of the company blog from
+legacy software to WordPress. Oversaw on-site and off-site advertising. Created
+assets for marketing campaigns including copy and HTML templates for emails,
+landing pages, blog posts, and advertisements. Setup and optimized Google
+AdWords and Facebook ad campaigns. Improved ranking of key landing pages for
+various search terms. </TimeLineElement> </div>
 
-  <div class="time-line-container mb-10">
-    <TimeLineElement
-      title="Digital Marketing Specialist"
-      subtitle="2014 - 2016 at Casting Networks, Inc., Los Angeles, California"
-    >
-      <ul>
-        <li>Developed and executed digital marketing campaigns via email, social, and targeted web ads.</li>
-        <li>Designed automated workflows to move leads through the sales funnel utilizing calls-to-action, custom landing pages, analytics, and other inbound marketing techniques.</li>
-        <li>Key person in implementing HubSpot CRM and CMS.</li>
-        <!-- ... (Continue with other responsibilities) ... -->
-      </ul>
-    </TimeLineElement>
+<div class="time-line-container mb-10"> <TimeLineElement title="Digital
+Marketing Specialist" subtitle="2014 - 2016 at Casting Networks, Inc., Los
+Angeles, California" > <ul> <li>Developed and executed digital marketing
+campaigns via email, social, and targeted web ads.</li> <li>Designed automated
+workflows to move leads through the sales funnel utilizing calls-to-action,
+custom landing pages, analytics, and other inbound marketing techniques.</li>
+<li>Key person in implementing HubSpot CRM and CMS.</li> <!-- ... (Continue with
+other responsibilities) ... --> </ul> </TimeLineElement>
 
-    <TimeLineElement
-      title="Digital Marketing Coordinator"
-      subtitle="2010 - 2014 at Casting Networks, Inc., Los Angeles, California"
-    >
-      <ul>
-        <li>Created assets for marketing campaigns including copy and HTML templates for emails, landing pages, blog posts, and advertisements.</li>
-        <li>Oversaw creation of monthly newsletters sent to over 350,000 users, collaborating articles, ads, and events.</li>
-        <li>Designed email templates in MailChimp, HubSpot, and Adobe Contribute.</li>
-        <!-- ... (Continue with other responsibilities) ... -->
-      </ul>
-    </TimeLineElement>
+<TimeLineElement title="Digital Marketing Coordinator" subtitle="2010 - 2014 at
+Casting Networks, Inc., Los Angeles, California" > <ul> <li>Created assets for
+marketing campaigns including copy and HTML templates for emails, landing pages,
+blog posts, and advertisements.</li> <li>Oversaw creation of monthly newsletters
+sent to over 350,000 users, collaborating articles, ads, and events.</li>
+<li>Designed email templates in MailChimp, HubSpot, and Adobe Contribute.</li>
+<!-- ... (Continue with other responsibilities) ... --> </ul> </TimeLineElement>
 
-    <TimeLineElement
-      title="Social Media Coordinator"
-      subtitle="2009 - 2010 at Casting Networks, Inc., Los Angeles, California"
-    >
-      <ul>
-        <li>Monitored and managed social media efforts across Facebook and Twitter.</li>
-        <li>Produced video tutorials, promotional digital and print materials.</li>
-        <li>Grew social audience from 4,000 to 60,000 followers.</li>
-      </ul>
-    </TimeLineElement>
-  </div>
+<TimeLineElement title="Social Media Coordinator" subtitle="2009 - 2010 at
+Casting Networks, Inc., Los Angeles, California" > <ul> <li>Monitored and
+managed social media efforts across Facebook and Twitter.</li> <li>Produced
+video tutorials, promotional digital and print materials.</li> <li>Grew social
+audience from 4,000 to 60,000 followers.</li> </ul> </TimeLineElement> </div>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Certifications</div>
-  </div>
+<div class="mb-5"> <div class="text-3xl w-full font-bold">Certifications</div>
+</div>
 
-  <ul class="list-disc mx-6 mb-10 grid gap-2">
-    <li>
-      <a href="#" target="_blank">Essential Facilitation Certification</a>
-    </li>
-    <li>
-      <a href="#" target="_blank">Google Analytics 4 Certification</a>
-    </li>
-    <li>
-      <a href="#" target="_blank">Salesforce Marketing Cloud Insights Certification</a>
-    </li>
-  </ul>
+<ul class="list-disc mx-6 mb-10 grid gap-2"> <li> <a href="#"
+target="_blank">Essential Facilitation Certification</a> </li> <li> <a href="#"
+target="_blank">Google Analytics 4 Certification</a> </li> <li> <a href="#"
+target="_blank">Salesforce Marketing Cloud Insights Certification</a> </li>
+</ul>
 
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Skills</div>
-  </div>
+<div class="mb-5"> <div class="text-3xl w-full font-bold">Skills</div> </div>
 
-  <div class="skills">Google Analytics 4</div>
-  <div class="skills">Salesforce Marketing Cloud</div>
-  <div class="skills">Google Tag Manager</div>
-  <div class="skills">SQL</div>
-  <div class="skills">HTML</div>
-  <div class="skills">Javascript</div>
-  <div class="skills">SQL</div>
-  <div class="skills">SEM</div>
-  <div class="skills">SEO</div>
-  <div class="skills">Server Management</div>
-  <div class="skills">Wordpress</div>
-  <div class="skills">Social Media Strategy</div>
-  <div class="skills">Brand Management</div>
-  <div class="skills">Adobe CC</div>
-  <div class="skills">Google Optimize</div>
-  <div class="skills">Spanish</div>
-</BaseLayout>
+<div class="skills">Google Analytics 4</div> <div class="skills">Salesforce
+Marketing Cloud</div> <div class="skills">Google Tag Manager</div> <div
+class="skills">SQL</div> <div class="skills">HTML</div> <div
+class="skills">Javascript</div> <div class="skills">SQL</div> <div
+class="skills">SEM</div> <div class="skills">SEO</div> <div
+class="skills">Server Management</div> <div class="skills">Wordpress</div> <div
+class="skills">Social Media Strategy</div> <div class="skills">Brand
+Management</div> <div class="skills">Adobe CC</div> <div class="skills">Google
+Optimize</div> <div class="skills">Spanish</div> </BaseLayout>
