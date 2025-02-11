@@ -23,6 +23,9 @@ jobs:
           node-version: 18
           cache: 'pnpm'
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install dependencies
         run: pnpm install
 
@@ -34,6 +37,7 @@ jobs:
         with:
           name: github-pages
           path: dist/
+
 
   deploy:
     needs: build
